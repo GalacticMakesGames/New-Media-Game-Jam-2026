@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     float horizontalInput;
-    float moveSpeed = 7f;
+    float moveSpeed = 6.7f;
     bool isFacingRight = false;
 
     Rigidbody2D rb;
