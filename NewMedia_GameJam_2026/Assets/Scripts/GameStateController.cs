@@ -5,10 +5,13 @@ using UnityEngine;
 public class GameStateController : MonoBehaviour
 {
     // Reference to the player's movement script
-    public PlayerMovement playerMovementScript;
+    [SerializeField] PlayerMovement playerMovementScript;
     Rigidbody2D rb;
 
-    public bool isPaused = false;
+    public bool isPaused = false; // controls the state which pauses player movement and enables mouse input
+
+    public bool isKeybindActive = true; // controls whether the key is pressable
+    public KeyCode actionKey = KeyCode.E; // keycode being managed
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,7 @@ public class GameStateController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (isKeybindActive && Input.GetKeyDown(actionKey))
         {
             TogglePauseState();
         }

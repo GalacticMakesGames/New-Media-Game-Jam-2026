@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
+    bool onKeyPlatform = false;
+    [SerializeField] GameStateController gameStateController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +40,24 @@ public class PlayerMovement : MonoBehaviour
             Vector3 ls = transform.localScale;
             ls.x *= -1f;
             transform.localScale = ls;
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("KeyPlatform"))
+        {
+            onKeyPlatform = true;
+            gameStateController.isKeybindActive = false; // Disable the keybind
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("KeyPlatform"))
+        {
+            onKeyPlatform = false;
+            gameStateController.isKeybindActive = true; // Re-enable the keybind
         }
     }
 }
