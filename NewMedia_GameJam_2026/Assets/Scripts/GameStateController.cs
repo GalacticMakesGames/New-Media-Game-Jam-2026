@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class GameStateController : MonoBehaviour
 {
     // Reference to the player's movement script
     [SerializeField] PlayerMovement playerMovementScript;
+    PlayerMovement moveSpeed;
     Rigidbody2D rb;
 
     public bool isPaused = false; // controls the state which pauses player movement and enables mouse input
@@ -42,6 +44,7 @@ public class GameStateController : MonoBehaviour
             if (playerMovementScript != null)
             {
                 playerMovementScript.enabled = false; // Disables the entire movement script
+                
                 rb.isKinematic = true;
             }
 

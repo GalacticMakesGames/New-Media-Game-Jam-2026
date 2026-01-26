@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     float horizontalInput;
-    float moveSpeed = 5f;
+    public float moveSpeed = 5f;
     bool isFacingRight = false;
 
     Rigidbody2D rb;
@@ -22,14 +22,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
 
         FlipSprite();
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+        if (horizontalInput != 0)
+        {
+            rb.velocity = new Vector2(horizontalInput * moveSpeed, rb.velocity.y);
+        }
+        else
+        {
+
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
     }
 
     void FlipSprite()

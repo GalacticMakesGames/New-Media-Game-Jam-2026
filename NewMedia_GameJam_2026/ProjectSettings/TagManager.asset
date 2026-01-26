@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - KeyPlatform
+  - DeathBarrier
   layers:
   - Default
   - TransparentFX
