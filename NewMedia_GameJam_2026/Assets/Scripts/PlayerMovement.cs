@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
-    bool onKeyPlatform = false;
+    //bool onKeyPlatform = false;
     [SerializeField] GameStateController gameStateController;
 
     // Start is called before the first frame update
@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("KeyPlatform"))
         {
-            onKeyPlatform = true;
+            //onKeyPlatform = true;
             gameStateController.isKeybindActive = false; // Disable the keybind
         }
     }
@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.gameObject.CompareTag("KeyPlatform"))
         {
-            onKeyPlatform = false;
+            //onKeyPlatform = false;
             gameStateController.isKeybindActive = true; // Re-enable the keybind
         }
     }
