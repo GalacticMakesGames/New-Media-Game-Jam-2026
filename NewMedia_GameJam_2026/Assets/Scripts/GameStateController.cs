@@ -7,6 +7,7 @@ public class GameStateController : MonoBehaviour
 {
     // Reference to the player's movement script
     [SerializeField] PlayerMovement playerMovementScript;
+    [SerializeField] KeyMode keyModeScript;
     PlayerMovement moveSpeed;
     Rigidbody2D rb;
     private Animator anim;
@@ -15,7 +16,9 @@ public class GameStateController : MonoBehaviour
 
     public bool isKeybindActive = true; // controls whether the key is pressable
     public KeyCode keyMode = KeyCode.E;
-    public KeyCode moveMode = KeyCode.F; 
+    public KeyCode moveMode = KeyCode.F;
+
+    public bool isKeyActive = false;
 
     // Start is called before the first frame update
     void Start()
@@ -38,9 +41,29 @@ public class GameStateController : MonoBehaviour
                 rb.velocity = new Vector2(0, rb.velocity.y);
                 anim.SetBool("isWalking", false);
             }
-
+            isKeyActive = true;
             TogglePauseState();
         }
+
+        //if (isPaused && Input.GetKeyDown(moveMode))
+        //{
+        //    Debug.Log("F pressed, confirmed key placement");
+
+        //    anim.SetBool("isKeyMode", false);
+        //    anim.SetBool("isIdleNoKey", true);
+        //    // Re-enable movement
+        //    if (playerMovementScript != null)
+        //    {
+        //        playerMovementScript.enabled = true;
+        //        rb.isKinematic = false;
+        //    }
+
+        //    // Hide and lock the mouse cursor for resumed gameplay
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //    Cursor.visible = false;
+
+        //    keyModeScript.keyPlatform.SetActive(false);
+        //}
     }
 
     public void TogglePauseState()
@@ -60,11 +83,11 @@ public class GameStateController : MonoBehaviour
             // Enable mouse cursor
             Cursor.lockState = CursorLockMode.None; // Unlocks the cursor
             Cursor.visible = true; // Makes the cursor visible
-
         }
         else
         {
             anim.SetBool("isKeyMode", false);
+            anim.SetBool("isWalkingNoKey", true);
             // Re-enable movement
             if (playerMovementScript != null)
             {
@@ -75,7 +98,38 @@ public class GameStateController : MonoBehaviour
             // Hide and lock the mouse cursor for resumed gameplay
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-
         }
+
+        //else if (isPaused && Input.GetKeyDown(KeyCode.R))
+        //{
+        //    anim.SetBool("isKeyMode", false);
+        //    // Re-enable movement
+        //    if (playerMovementScript != null)
+        //    {
+        //        playerMovementScript.enabled = true;
+        //        rb.isKinematic = false;
+        //    }
+
+        //    // Hide and lock the mouse cursor for resumed gameplay
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //    Cursor.visible = false;
+        //}
+
+        //else if (isPaused && Input.GetKeyDown(moveMode))
+        //{
+        //    anim.SetBool("isKeyMode", false);
+        //    anim.SetBool("isIdleNoKey", true);
+        //    // Re-enable movement
+        //    if (playerMovementScript != null)
+        //    {
+        //        playerMovementScript.enabled = true;
+        //        rb.isKinematic = false;
+        //    }
+
+        //    // Hide and lock the mouse cursor for resumed gameplay
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //    Cursor.visible = false;
+        //}
+
     }
 }

@@ -1151,9 +1151,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovementScript: {fileID: 1249765520}
+  keyModeScript: {fileID: 0}
   isPaused: 0
   isKeybindActive: 1
-  actionKey: 101
+  keyMode: 101
+  moveMode: 102
+  isKeyActive: 0
 --- !u!114 &1249765520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1166,6 +1169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96491314046776498652a8be51982d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalInput: 0
   moveSpeed: 5
   isMoving: 0
   gameStateController: {fileID: 1249765519}
@@ -2427,6 +2431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96491314046776498652a8be51982d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalInput: 0
   moveSpeed: 5
   isMoving: 0
   gameStateController: {fileID: 1682816467}
@@ -2443,9 +2448,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerMovementScript: {fileID: 1682816466}
+  keyModeScript: {fileID: 1264832156}
   isPaused: 0
   isKeybindActive: 1
-  actionKey: 101
+  keyMode: 101
+  moveMode: 102
+  isKeyActive: 0
 --- !u!95 &1682816468
 Animator:
   serializedVersion: 5

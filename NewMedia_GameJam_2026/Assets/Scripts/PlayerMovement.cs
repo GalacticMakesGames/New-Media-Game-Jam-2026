@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float horizontalInput;
+    public float horizontalInput;
     public float moveSpeed = 5f;
     //bool isFacingRight = false;
     private bool isFacingRight;
@@ -43,6 +43,15 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetBool("isWalking", false);
         }
+        //else if (horizontalInput != 0 && gameStateController.isKeyActive == true)
+        //{
+        //    anim.SetBool("isWalkingNoKey", true);
+        //}
+        //else if (horizontalInput == 0 && gameStateController.isKeyActive == true)
+        //{
+        //    anim.SetBool("isIdleNoKey", true);
+        //    anim.SetBool("isWalkingNoKey", false);
+        //}
 
         if (!isFacingRight && horizontalInput > 0)
         {
