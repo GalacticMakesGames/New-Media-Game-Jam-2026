@@ -10,8 +10,8 @@ public class KeyMode : MonoBehaviour
     Vector3 pos;
     float keySpeed = 1f;
 
-    public float rotationStep = 30f; // Amount to rotate per click (in degrees)
-    private float targetRotation;
+    public float rotationStep = 15f; // Amount to rotate per click (in degrees)
+    //private float targetRotation;
 
     // Start is called before the first frame update
     void Start()
@@ -27,9 +27,18 @@ public class KeyMode : MonoBehaviour
             FollowMouse();
         }
 
+        // Left Mouse Click (Clockwise)
+        if (Input.GetMouseButtonDown(0)) // left mouse button click
+        {
+            //RotateObject();
+            transform.Rotate(Vector3.forward, -rotationStep);
+        }
+
+        // Right Mouse Click (Counter-clockwise)
         if (Input.GetMouseButtonDown(1)) // right mouse button click
         {
-            RotateObject();
+            //RotateObject();
+            transform.Rotate(Vector3.forward, rotationStep);
         }
     }
 
@@ -42,10 +51,10 @@ public class KeyMode : MonoBehaviour
         transform.position = Camera.main.ScreenToWorldPoint(pos);
     }
 
-    void RotateObject()
-    {
-        // Calculate the new target rotation (current + step)
-        targetRotation = transform.rotation.eulerAngles.z + rotationStep;
-        transform.Rotate(Vector3.forward, rotationStep, Space.Self); // Rotate relative to self
-    }
+    //void RotateObject()
+    //{
+    //    // Calculate the new target rotation (current + step)
+    //    targetRotation = transform.rotation.eulerAngles.z + rotationStep;
+    //    transform.Rotate(Vector3.forward, rotationStep, Space.Self); // Rotate relative to self
+    //}
 }

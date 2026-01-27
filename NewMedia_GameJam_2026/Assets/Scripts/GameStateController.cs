@@ -9,11 +9,13 @@ public class GameStateController : MonoBehaviour
     [SerializeField] PlayerMovement playerMovementScript;
     PlayerMovement moveSpeed;
     Rigidbody2D rb;
+    private Animator anim;
 
     public bool isPaused = false; // controls the state which pauses player movement and enables mouse input
 
     public bool isKeybindActive = true; // controls whether the key is pressable
-    public KeyCode actionKey = KeyCode.E; // keycode being managed
+    public KeyCode keyMode = KeyCode.E;
+    public KeyCode moveMode = KeyCode.F; 
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +25,20 @@ public class GameStateController : MonoBehaviour
         Cursor.visible = false;
 
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isKeybindActive && Input.GetKeyDown(actionKey))
+        if (isKeybindActive && Input.GetKeyDown(keyMode))
         {
+            if (playerMovementScript.isMoving)
+            {
+                rb.velocity = new Vector2(0, rb.velocity.y);
+                anim.SetBool("isWalking", false);
+            }
+
             TogglePauseState();
         }
     }
@@ -40,12 +49,12 @@ public class GameStateController : MonoBehaviour
 
         if (isPaused)
         {
+            anim.SetBool("isKeyMode", true);
             // Freeze movement
             if (playerMovementScript != null)
             {
-                playerMovementScript.enabled = false; // Disables the entire movement script
-                
                 rb.isKinematic = true;
+                playerMovementScript.enabled = false; // Disables the entire movement script
             }
 
             // Enable mouse cursor
@@ -55,6 +64,7 @@ public class GameStateController : MonoBehaviour
         }
         else
         {
+            anim.SetBool("isKeyMode", false);
             // Re-enable movement
             if (playerMovementScript != null)
             {
