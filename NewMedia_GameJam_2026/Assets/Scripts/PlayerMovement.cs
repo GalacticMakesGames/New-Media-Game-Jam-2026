@@ -160,9 +160,22 @@ public class PlayerMovement : MonoBehaviour
         //// Update the previous position for the next frame's comparison
         //previousYPosition = currentYPosition;
 
+        //if ((anim.GetBool("isWalkingNoKey") == true | anim.GetBool("isIdleNoKey") == true))
+        //{
+        //    if (Input.GetKeyDown(moveMode) && gameStateController.isKeybindActive)
+        //    {
+        //        Debug.Log("Key is Picked Up");
+        //        anim.SetBool("isIdleNoKey", false);
+        //        anim.SetBool("isPickingUpKey", true);
+        //        anim.SetBool("isWalkingNoKey", false);
+        //        keyModeScript.keyPlatform.SetActive(false);
+        //        gameStateController.isKeyActive = false;
+        //    }
+        //}
+
         if ((anim.GetBool("isWalkingNoKey") == true | anim.GetBool("isIdleNoKey") == true))
         {
-            if (Input.GetKeyDown(moveMode) && gameStateController.isKeybindActive)
+            if (Input.GetKeyDown(moveMode) && gameStateController.isFKeyPressable)
             {
                 Debug.Log("Key is Picked Up");
                 anim.SetBool("isIdleNoKey", false);
@@ -170,8 +183,9 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isWalkingNoKey", false);
                 keyModeScript.keyPlatform.SetActive(false);
                 gameStateController.isKeyActive = false;
+                gameStateController.isFKeyPressable = false;
+                gameStateController.isEKeyPressable = true;
             }
-
         }
     }
 
@@ -195,21 +209,22 @@ public class PlayerMovement : MonoBehaviour
         transform.localScale = localScale;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("KeyPlatform"))
-        {
-            //onKeyPlatform = true;
-            gameStateController.isKeybindActive = false; // Disable the keybind
-        }
-    }
+    // Collisions for not allowing the key to be picked up while you're standing on it
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if (other.gameObject.CompareTag("KeyPlatform"))
+    //    {
+    //        //onKeyPlatform = true;
+    //        gameStateController.isKeybindActive = false; // Disable the keybind
+    //    }
+    //}
 
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("KeyPlatform"))
-        {
-            //onKeyPlatform = false;
-            gameStateController.isKeybindActive = true; // Re-enable the keybind
-        }
-    }
+    //private void OnCollisionExit2D(Collision2D other)
+    //{
+    //    if (other.gameObject.CompareTag("KeyPlatform"))
+    //    {
+    //        //onKeyPlatform = false;
+    //        gameStateController.isKeybindActive = true; // Re-enable the keybind
+    //    }
+    //}
 }
