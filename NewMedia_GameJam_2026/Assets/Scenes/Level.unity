@@ -1155,7 +1155,6 @@ MonoBehaviour:
   isPaused: 0
   isKeybindActive: 1
   keyMode: 101
-  moveMode: 102
   isKeyActive: 0
 --- !u!114 &1249765520
 MonoBehaviour:
@@ -1173,6 +1172,8 @@ MonoBehaviour:
   moveSpeed: 5
   isMoving: 0
   gameStateController: {fileID: 1249765519}
+  keyModeScript: {fileID: 0}
+  moveMode: 102
 --- !u!50 &1249765521
 Rigidbody2D:
   serializedVersion: 4
@@ -2435,6 +2436,8 @@ MonoBehaviour:
   moveSpeed: 5
   isMoving: 0
   gameStateController: {fileID: 1682816467}
+  keyModeScript: {fileID: 1264832156}
+  moveMode: 102
 --- !u!114 &1682816467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2452,7 +2455,6 @@ MonoBehaviour:
   isPaused: 0
   isKeybindActive: 1
   keyMode: 101
-  moveMode: 102
   isKeyActive: 0
 --- !u!95 &1682816468
 Animator:

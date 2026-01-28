@@ -17,6 +17,9 @@ public class PlayerMovement : MonoBehaviour
 
     //bool onKeyPlatform = false;
     [SerializeField] GameStateController gameStateController;
+    [SerializeField] KeyMode keyModeScript;
+
+    public KeyCode moveMode = KeyCode.F;
 
     // Start is called before the first frame update
     void Start()
@@ -37,12 +40,85 @@ public class PlayerMovement : MonoBehaviour
 
         if (horizontalInput != 0)
         {
-            anim.SetBool("isWalking", true);
+            if (gameStateController.isKeyActive == false)
+            {
+                anim.SetBool("isWalking", true);
+                Debug.Log("Walking with a key");
+            }
+            else
+            {
+                anim.SetBool("isIdleNoKey", false);
+                anim.SetBool("isWalkingNoKey", true);
+                Debug.Log("Walking without a key");
+            }
         }
         else
         {
-            anim.SetBool("isWalking", false);
+            if (gameStateController.isKeyActive == false)
+            {
+                anim.SetBool("isWalking", false);
+                Debug.Log("Walking with a key");
+            }
+            else
+            {
+                anim.SetBool("isIdleNoKey", true);
+                anim.SetBool("isWalkingNoKey", false);
+            }
+            //anim.SetBool("isWalking", false);
         }
+
+        //if (horizontalInput != 0)
+        //{
+        //    anim.SetBool("isWalking", true);
+        //    Debug.Log("Walking with a key");
+        //}
+        //else
+        //{
+        //    anim.SetBool("isWalking", false);
+        //}
+
+        //if (gameStateController.isKeyActive == false)
+        //{
+        //    anim.SetBool("isWalking", true);
+        //    Debug.Log("Walking with a key");
+        //}
+        //else
+        //{
+        //    anim.SetBool("isWalkingNoKey", true);
+        //}
+
+        //if (horizontalInput != 0)
+        //{
+        //    if (gameStateController.isKeyActive == false)
+        //    {
+        //        anim.SetBool("isWalking", true);
+        //        Debug.Log("Walking with a key");
+        //    }
+        //    else
+        //    {
+        //        anim.SetBool("isWalkingNoKey", true);
+        //    }
+
+        //}
+        //else
+        //{
+        //    anim.SetBool("isWalking", false);
+        //}
+
+        //else
+        //{
+        //    if (gameStateController.isKeyActive == false)
+        //    {
+        //        anim.SetBool("isWalking", false);
+        //        anim.SetBool("isIdle", true);
+        //    }
+        //    else
+        //    {
+        //        anim.SetBool("isWalkingNoKey", false);
+        //        anim.SetBool("isIdleNoKey", true);
+        //    }
+        //}
+
         //else if (horizontalInput != 0 && gameStateController.isKeyActive == true)
         //{
         //    anim.SetBool("isWalkingNoKey", true);
@@ -83,6 +159,20 @@ public class PlayerMovement : MonoBehaviour
 
         //// Update the previous position for the next frame's comparison
         //previousYPosition = currentYPosition;
+
+        if ((anim.GetBool("isWalkingNoKey") == true | anim.GetBool("isIdleNoKey") == true))
+        {
+            if (Input.GetKeyDown(moveMode) && gameStateController.isKeybindActive)
+            {
+                Debug.Log("Key is Picked Up");
+                anim.SetBool("isIdleNoKey", false);
+                anim.SetBool("isPickingUpKey", true);
+                anim.SetBool("isWalkingNoKey", false);
+                keyModeScript.keyPlatform.SetActive(false);
+                gameStateController.isKeyActive = false;
+            }
+
+        }
     }
 
     private void FixedUpdate()
