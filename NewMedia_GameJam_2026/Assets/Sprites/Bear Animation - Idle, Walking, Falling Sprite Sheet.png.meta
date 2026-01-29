@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: 1383cc8085adf4c4487c658be2d608a4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 7803
+        width: 1056
+        height: 1505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df892514da61c8a449b081baf24e62d3
+      internalID: 1418153759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 7797
+        width: 1101
+        height: 1516
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c62ef350a80084a91e15e56aa376f7
+      internalID: 690877069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3122
+        y: 7797
+        width: 619
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42a870fff31af419b71bc445b9682b
+      internalID: -784345281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 4128
+        y: 7796
+        width: 695
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14d50ae38e326346bdabd275e42f2d8
+      internalID: 653852276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 6000
+        width: 1416
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586325ad00381114b8f3197aad574577
+      internalID: 508514644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 6000
+        width: 1410
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85114c103c12e214e81b18ae7678b0e7
+      internalID: -16481190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 6000
+        width: 1404
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368f08a4a815dfe45a3a86a44e9a33cd
+      internalID: -706974216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 4791
+        y: 6000
+        width: 1404
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd1f33ac959a804f99714d4c9da30ea
+      internalID: 1112362525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 6240
+        y: 5994
+        width: 1415
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b90899b157d394eb66c3828b3eed14
+      internalID: 1771617267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7701
+        y: 6000
+        width: 1398
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a7250d612fea14e924eeaa5b08b03d
+      internalID: -939770231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 9252
+        y: 6000
+        width: 1434
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b1bf15e30c29b4f982470437ac12dd
+      internalID: -762043663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 4197
+        width: 1441
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ee7e6c2ccbc7247a83f281b336f89f
+      internalID: 2062805937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 4197
+        width: 1416
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb8176c77091334ca14f8cbcc4bf2a1
+      internalID: 1023043929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 4197
+        width: 1410
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c239cb1324a948a69ba83a3fdb1dc
+      internalID: -958037044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 4203
+        width: 1398
+        height: 1506
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7ea8e9ca571ef408a60f782154ff93
+      internalID: 863613717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 6462
+        y: 4197
+        width: 1403
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4addb89735f0748be7a089b1d107ac
+      internalID: 708229106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 8017
+        y: 4197
+        width: 1411
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27002d74071cf6248aa0c5150148c93c
+      internalID: 17676546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 9510
+        y: 4197
+        width: 1417
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398b202d400a5df48886e64a9f444f29
+      internalID: -673676630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2401
+        width: 614
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b007b524cd9cb944a3d3f01ee6cdc43
+      internalID: -2096323814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2204
+        y: 2395
+        width: 519
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b766868914a45394fa76d83ea512e8b2
+      internalID: 2089672815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3754
+        y: 2401
+        width: 512
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1795269745d8164c85f84e067a43948
+      internalID: 697579604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 2401
+        width: 487
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf23609540536a743ba8a4c683dec9fc
+      internalID: -1969748889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 6715
+        y: 2394
+        width: 619
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c396718ab0cfc543bcc9c43a55c6b47
+      internalID: -1089237281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 8251
+        y: 2401
+        width: 518
+        height: 1508
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cb33bade9561648918b8a77d1df959
+      internalID: 1749731359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 2394
+        width: 531
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd53d55f603b3f43b5221aed6853df9
+      internalID: 203318229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Idle, Walking, Falling Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 598
+        width: 1417
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c544ec9464b0e42a1a471cf7302d38
+      internalID: -150752243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_0: 1418153759
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_1: 690877069
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_10: -762043663
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_11: 2062805937
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_12: 1023043929
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_13: -958037044
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_14: 863613717
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_15: 708229106
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_16: 17676546
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_17: -673676630
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_18: -2096323814
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_19: 2089672815
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_2: -784345281
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_20: 697579604
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_21: -1969748889
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_22: -1089237281
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_23: 1749731359
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_24: 203318229
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_25: -150752243
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_3: 653852276
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_4: 508514644
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_5: -16481190
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_6: -706974216
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_7: 1112362525
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_8: 1771617267
+      Bear Animation - Idle, Walking, Falling Sprite Sheet_9: -939770231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

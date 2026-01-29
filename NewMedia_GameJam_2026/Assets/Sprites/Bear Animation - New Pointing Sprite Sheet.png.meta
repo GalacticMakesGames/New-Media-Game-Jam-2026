@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: ad9a868f82eadd04c83b04bc3bb341c1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 7797
+        width: 1442
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50ea36182c91e84983372f4b2cf8a1e
+      internalID: 2059387156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 7796
+        width: 1448
+        height: 1499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45bec5eba2785f40bd3623264f00eed
+      internalID: 130625843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 7791
+        width: 1442
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c590395348791458e1bdd4679b8721
+      internalID: -18446406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 7796
+        width: 1446
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf152ed5f316b4098fdbef506eb4b2
+      internalID: -2065261160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 6695
+        y: 7796
+        width: 1442
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a284103f8056152428ba5d4968391fd9
+      internalID: 1383654822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8302
+        y: 7796
+        width: 1448
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67c868ae91063e48a5a7662ba28e789
+      internalID: -2030637382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 5994
+        width: 1448
+        height: 1502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3034a77367dc65243bcabe4bf0dd94e0
+      internalID: 452185817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 5994
+        width: 1448
+        height: 1499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e661cc014d138c49a37e182e7b21334
+      internalID: -1556384942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 5995
+        width: 1448
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbeb97543c809d42a6dc4333bb05542
+      internalID: 1929479384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 5994
+        width: 1442
+        height: 1492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a284c9c15bdd24469e4df328051f2fb
+      internalID: -1198476317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 6872
+        y: 5995
+        width: 1448
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953040ddda0adee43acfe5cd8f604950
+      internalID: -1829225129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 8435
+        y: 6000
+        width: 1448
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a1e228d49ba7c468eba9f5d972a4a4
+      internalID: -1545218114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 4197
+        width: 563
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dea75bd521ac047bb0b7cf463f73dd
+      internalID: 1850993774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 4197
+        width: 549
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371bcf925f943984093dd52d561f1760
+      internalID: -2113713977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 4191
+        width: 506
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fe5d36abf7cc544894c3ae06133c8a
+      internalID: 1540665385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 5696
+        y: 4191
+        width: 563
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138d26f2a0fac443882d83d10bad9fb
+      internalID: 80232935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7246
+        y: 4192
+        width: 550
+        height: 1503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e89376172d4f740adb575d31e0f102
+      internalID: -777098894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 8858
+        y: 4197
+        width: 487
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ed302eeb450b44ea4712f680c1c451
+      internalID: -373376684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2401
+        width: 1385
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d9c30884b8e914abe2eb9a886633e2
+      internalID: -1786107874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2401
+        width: 1392
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55162fad517ef7048a7f76f7cd68c773
+      internalID: 833278320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 2401
+        width: 1394
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a05b0e0edead3341aafa7c6d2f377e8
+      internalID: 188505520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5411
+        y: 2401
+        width: 1379
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533caf6038a7880408f341b265636d44
+      internalID: 1344765012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7037
+        y: 2401
+        width: 1306
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a603da704af616c4d9e09c96ac8846e9
+      internalID: 155723581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 8542
+        y: 2401
+        width: 1366
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235b7fe9431bb974495c37c92630f5bb
+      internalID: -845624600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 10124
+        y: 2395
+        width: 757
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0898eed15fdf8d14e9519a903bb2e282
+      internalID: -142968048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 592
+        width: 1366
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dc981e24f28b63469ae0d9a5798daab
+      internalID: -1012677039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 598
+        width: 1309
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2db144be127d5418ac803887b7af83
+      internalID: 1899832427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 592
+        width: 1385
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af244f50039224b4f97c130ad51e9925
+      internalID: -550631268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 592
+        width: 1398
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4037c873bbf26be47b76083a639e7b90
+      internalID: -1394042158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 6778
+        y: 592
+        width: 1397
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df971d53306155448e4a564648dcb72
+      internalID: 752020335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - New Pointing Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 8368
+        y: 592
+        width: 1388
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134adea1a203a1147b60d87b5e6564a1
+      internalID: -653670967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bear Animation - New Pointing Sprite Sheet_0: 2059387156
+      Bear Animation - New Pointing Sprite Sheet_1: 130625843
+      Bear Animation - New Pointing Sprite Sheet_10: -1829225129
+      Bear Animation - New Pointing Sprite Sheet_11: -1545218114
+      Bear Animation - New Pointing Sprite Sheet_12: 1850993774
+      Bear Animation - New Pointing Sprite Sheet_13: -2113713977
+      Bear Animation - New Pointing Sprite Sheet_14: 1540665385
+      Bear Animation - New Pointing Sprite Sheet_15: 80232935
+      Bear Animation - New Pointing Sprite Sheet_16: -777098894
+      Bear Animation - New Pointing Sprite Sheet_17: -373376684
+      Bear Animation - New Pointing Sprite Sheet_18: -1786107874
+      Bear Animation - New Pointing Sprite Sheet_19: 833278320
+      Bear Animation - New Pointing Sprite Sheet_2: -18446406
+      Bear Animation - New Pointing Sprite Sheet_20: 188505520
+      Bear Animation - New Pointing Sprite Sheet_21: 1344765012
+      Bear Animation - New Pointing Sprite Sheet_22: 155723581
+      Bear Animation - New Pointing Sprite Sheet_23: -845624600
+      Bear Animation - New Pointing Sprite Sheet_24: -142968048
+      Bear Animation - New Pointing Sprite Sheet_25: -1012677039
+      Bear Animation - New Pointing Sprite Sheet_26: 1899832427
+      Bear Animation - New Pointing Sprite Sheet_27: -550631268
+      Bear Animation - New Pointing Sprite Sheet_28: -1394042158
+      Bear Animation - New Pointing Sprite Sheet_29: 752020335
+      Bear Animation - New Pointing Sprite Sheet_3: -2065261160
+      Bear Animation - New Pointing Sprite Sheet_30: -653670967
+      Bear Animation - New Pointing Sprite Sheet_4: 1383654822
+      Bear Animation - New Pointing Sprite Sheet_5: -2030637382
+      Bear Animation - New Pointing Sprite Sheet_6: 452185817
+      Bear Animation - New Pointing Sprite Sheet_7: -1556384942
+      Bear Animation - New Pointing Sprite Sheet_8: 1929479384
+      Bear Animation - New Pointing Sprite Sheet_9: -1198476317
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

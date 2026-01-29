@@ -1,0 +1,774 @@
+fileFormatVersion: 2
+guid: 14ac0b48cd207844eb0f6d1cb10e0a07
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 7797
+        width: 1442
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e2990889132d48a7c42492a38e169
+      internalID: 944823240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 7796
+        width: 1448
+        height: 1499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c839a45855355ec43bd53e55b5cb1369
+      internalID: -637604715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 7791
+        width: 1442
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fabe5f592e6828429ee5258d4938d60
+      internalID: -1928614149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5142
+        y: 7796
+        width: 1446
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b7d7082c11c94489539574c00f7d08
+      internalID: 244932457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 6695
+        y: 7796
+        width: 1442
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232ccea75b3568c45bd2af6439cd4dd9
+      internalID: -553742883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 8302
+        y: 7796
+        width: 1448
+        height: 1500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ec95abebf615b42943e7150d240204
+      internalID: -571422134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 5994
+        width: 1448
+        height: 1502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2332fe255d191dd42adbdfd709dc1854
+      internalID: 1704068909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 5994
+        width: 1448
+        height: 1499
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3712b101df527a943956558c9c623325
+      internalID: 1762021684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 3786
+        y: 5995
+        width: 1448
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867774eda9279af4786f48ec7e32a801
+      internalID: 2094710062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5329
+        y: 5994
+        width: 1442
+        height: 1492
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028f34d0394139a4c80ecabc5a4ca740
+      internalID: 2036956410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 6872
+        y: 5995
+        width: 1448
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3bd1ec2aeacd84cb35dd3303b0fb9c
+      internalID: -545420361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 8435
+        y: 6000
+        width: 1448
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25f954fb260a39438927715d0ac6e08
+      internalID: 212781983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 4197
+        width: 563
+        height: 1517
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708e289beea0fce4283bc7a0cf185552
+      internalID: 2034088811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 4197
+        width: 549
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4703673519ad941bf4545593dcbbcf
+      internalID: 360459721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 4191
+        width: 506
+        height: 1493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c919b891f58764cbb5d85b5a430a23
+      internalID: 1743206811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 5696
+        y: 4191
+        width: 563
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e71156162dcaf240aaa2d9c6eb87c54
+      internalID: 199218777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 7246
+        y: 4192
+        width: 550
+        height: 1503
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46681fd546e98b4e9414e4991d8108e
+      internalID: -619280250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 8858
+        y: 4197
+        width: 487
+        height: 1498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25ac19c2d7a8a74089344a96248ccc1
+      internalID: 107912703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 2401
+        width: 1385
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfec44080ad32141a6364d05c56fbd5
+      internalID: 1459394789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 2401
+        width: 1392
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ff8749f0c81d347afc6c96954f7cf6
+      internalID: 512675680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 2401
+        width: 1394
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6da44f89f6a0d4a9e0d1eca2758233
+      internalID: 2086707184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5411
+        y: 2401
+        width: 1379
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51857ecc96dff2745a288387c5a82a03
+      internalID: 1469427653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7037
+        y: 2401
+        width: 1306
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75accfcc7f172a4b90d09514efaa1b2
+      internalID: -759258229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 8542
+        y: 2401
+        width: 1366
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520f010a74f02304fa3e4370d19aaa18
+      internalID: -1695196464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 592
+        width: 1366
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0227bc46005cd2744b0a7e49af3231ab
+      internalID: 1169205374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 598
+        width: 1309
+        height: 1512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a63e28500d0a345bea25c71606f3ac
+      internalID: 1381745944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3526
+        y: 592
+        width: 1385
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86aa36e87a9a71a46b1442428f15daef
+      internalID: -1584537495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 5171
+        y: 592
+        width: 1398
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd6cfd0895387e4c8942c5631530d66
+      internalID: 100741392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 6778
+        y: 592
+        width: 1397
+        height: 1511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41253d280efc1614ba11e13bc4063005
+      internalID: -1105598465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear Animation - Climbing and Pointing Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 8368
+        y: 592
+        width: 1388
+        height: 1518
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4007d7aa7d21b143a3a64beb1c2cbad
+      internalID: -827300878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Bear Animation - Climbing and Pointing Sprite Sheet_0: 944823240
+      Bear Animation - Climbing and Pointing Sprite Sheet_1: -637604715
+      Bear Animation - Climbing and Pointing Sprite Sheet_10: -545420361
+      Bear Animation - Climbing and Pointing Sprite Sheet_11: 212781983
+      Bear Animation - Climbing and Pointing Sprite Sheet_12: 2034088811
+      Bear Animation - Climbing and Pointing Sprite Sheet_13: 360459721
+      Bear Animation - Climbing and Pointing Sprite Sheet_14: 1743206811
+      Bear Animation - Climbing and Pointing Sprite Sheet_15: 199218777
+      Bear Animation - Climbing and Pointing Sprite Sheet_16: -619280250
+      Bear Animation - Climbing and Pointing Sprite Sheet_17: 107912703
+      Bear Animation - Climbing and Pointing Sprite Sheet_18: 1459394789
+      Bear Animation - Climbing and Pointing Sprite Sheet_19: 512675680
+      Bear Animation - Climbing and Pointing Sprite Sheet_2: -1928614149
+      Bear Animation - Climbing and Pointing Sprite Sheet_20: 2086707184
+      Bear Animation - Climbing and Pointing Sprite Sheet_21: 1469427653
+      Bear Animation - Climbing and Pointing Sprite Sheet_22: -759258229
+      Bear Animation - Climbing and Pointing Sprite Sheet_23: -1695196464
+      Bear Animation - Climbing and Pointing Sprite Sheet_24: 1169205374
+      Bear Animation - Climbing and Pointing Sprite Sheet_25: 1381745944
+      Bear Animation - Climbing and Pointing Sprite Sheet_26: -1584537495
+      Bear Animation - Climbing and Pointing Sprite Sheet_27: 100741392
+      Bear Animation - Climbing and Pointing Sprite Sheet_28: -1105598465
+      Bear Animation - Climbing and Pointing Sprite Sheet_29: -827300878
+      Bear Animation - Climbing and Pointing Sprite Sheet_3: 244932457
+      Bear Animation - Climbing and Pointing Sprite Sheet_4: -553742883
+      Bear Animation - Climbing and Pointing Sprite Sheet_5: -571422134
+      Bear Animation - Climbing and Pointing Sprite Sheet_6: 1704068909
+      Bear Animation - Climbing and Pointing Sprite Sheet_7: 1762021684
+      Bear Animation - Climbing and Pointing Sprite Sheet_8: 2094710062
+      Bear Animation - Climbing and Pointing Sprite Sheet_9: 2036956410
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
