@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     float horizontalInput;
     float moveSpeed = 6.7f;
     bool isFacingRight = false;
+    public bool isMoving;
 
     Rigidbody2D rb;
 
