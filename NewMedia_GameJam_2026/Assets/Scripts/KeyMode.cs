@@ -29,14 +29,14 @@ public class KeyMode : MonoBehaviour
         }
 
         // Left Mouse Click (Clockwise)
-        if (Input.GetMouseButtonDown(0)) // left mouse button click
+        if (Input.GetMouseButtonDown(0) && gameStateController.isEKeyPressable == true) // left mouse button click
         {
             //RotateObject();
             transform.Rotate(Vector3.forward, -rotationStep);
         }
 
         // Right Mouse Click (Counter-clockwise)
-        if (Input.GetMouseButtonDown(1)) // right mouse button click
+        if (Input.GetMouseButtonDown(1) && gameStateController.isEKeyPressable == true) // right mouse button click
         {
             //RotateObject();
             transform.Rotate(Vector3.forward, rotationStep);
