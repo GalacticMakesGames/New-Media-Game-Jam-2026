@@ -9,14 +9,15 @@ public class KeyMode : MonoBehaviour
 
     Vector3 pos;
     float keySpeed = 1f;
+    public Vector3 targetRotation = new Vector3(0, 0, 150);
 
     public float rotationStep = 15f; // Amount to rotate per click (in degrees)
-    //private float targetRotation;
 
     // Start is called before the first frame update
     void Start()
     {
         keyPlatform.SetActive(false);
+        transform.eulerAngles = targetRotation;
     }
 
     // Update is called once per frame
