@@ -97,6 +97,7 @@ public class GameStateController : MonoBehaviour
             // Enable mouse cursor
             Cursor.lockState = CursorLockMode.None; // Unlocks the cursor
             Cursor.visible = true; // Makes the cursor visible
+            isEKeyPressable = true;
         }
         else
         {
