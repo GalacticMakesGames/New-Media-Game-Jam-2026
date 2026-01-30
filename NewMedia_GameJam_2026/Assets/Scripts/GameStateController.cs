@@ -8,6 +8,8 @@ public class GameStateController : MonoBehaviour
     // Reference to the player's movement script
     [SerializeField] PlayerMovement playerMovementScript;
     [SerializeField] KeyMode keyModeScript;
+    [SerializeField] private AudioClip keyPlacement;
+    [SerializeField] private AudioClip keyPlacing;
     PlayerMovement moveSpeed;
     Rigidbody2D rb;
     private Animator anim;
@@ -97,6 +99,8 @@ public class GameStateController : MonoBehaviour
             // Enable mouse cursor
             Cursor.lockState = CursorLockMode.None; // Unlocks the cursor
             Cursor.visible = true; // Makes the cursor visible
+
+            AudioSource.PlayClipAtPoint(keyPlacing, transform.position);
         }
         else
         {
@@ -105,7 +109,6 @@ public class GameStateController : MonoBehaviour
             Debug.Log("Key Mode inactive");
             anim.SetBool("isIdleNoKey", true);
             //anim.SetBool("isWalkingNoKey", true);
-
             // Re-enable movement
             if (playerMovementScript != null)
             {
@@ -118,6 +121,9 @@ public class GameStateController : MonoBehaviour
             Cursor.visible = false;
             isEKeyPressable = false;
             isFKeyPressable = true;
+
+            //play sound when placing the key
+            AudioSource.PlayClipAtPoint(keyPlacement, transform.position);
 }
 
         //else if (isPaused && Input.GetKeyDown(KeyCode.R))
