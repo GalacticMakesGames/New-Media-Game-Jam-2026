@@ -6,6 +6,7 @@ using TMPro;
 public class Dialogue : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerMovementScript;
+    [SerializeField] GameStateController gameStateController;
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -40,6 +41,7 @@ public class Dialogue : MonoBehaviour
     void StartDialogue()
     {
         playerMovementScript.enabled = false; // Disables the entire movement script
+        gameStateController.isEKeyPressable = false;
         index = 0;
         StartCoroutine(TypeLine());
     }
@@ -65,6 +67,7 @@ public class Dialogue : MonoBehaviour
         {
             gameObject.SetActive(false);
             playerMovementScript.enabled = true; // Re-enables the movement script
+            gameStateController.isEKeyPressable = true;
         }
     }
 }
