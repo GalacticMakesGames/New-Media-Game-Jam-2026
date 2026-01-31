@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
-
-public class Dialogue : MonoBehaviour
+public class FinalCutsceneDialogue : MonoBehaviour
 {
     [SerializeField] PlayerMovement playerMovementScript;
     [SerializeField] GameStateController gameStateController;
+    [SerializeField] GameOverScript gameOverScript;
 
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -16,17 +15,15 @@ public class Dialogue : MonoBehaviour
 
     private int index;
 
-    // Start is called before the first frame update
     void Start()
     {
         textComponent.text = string.Empty;
-        StartDialogue();
+        gameObject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (gameObject.activeInHierarchy && Input.GetKeyDown(KeyCode.Space))
         {
             if (textComponent.text == lines[index])
             {
@@ -40,12 +37,15 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue()
+    // UPDATED: Now accepts a Boolean and a GameObject reference
+    public void StartDialogue()
     {
-        playerMovementScript.enabled = false; // Disables the entire movement script
+        gameObject.SetActive(true);
+        playerMovementScript.enabled = false;
         gameStateController.isEKeyPressable = false;
-        index = 0;
 
+        index = 0;
+        textComponent.text = string.Empty;
         StartCoroutine(TypeLine());
     }
 
@@ -64,14 +64,17 @@ public class Dialogue : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
-
             StartCoroutine(TypeLine());
         }
         else
         {
+            // Keep player frozen for the Game Over screen
+            playerMovementScript.enabled = false;
+
+            // Hide the dialogue box
             gameObject.SetActive(false);
-            playerMovementScript.enabled = true; // Re-enables the movement script
-            gameStateController.isEKeyPressable = true;
+
+            gameOverScript.GameOver();
         }
     }
 }

@@ -4,23 +4,15 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    public GameObject endCutscene;
-    [SerializeField] PlayerMovement playerMovementScript;
+    public FinalCutsceneDialogue dialogueScript;
+    private bool hasTriggered = false;
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !hasTriggered)
         {
-            endCutscene.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            endCutscene.SetActive(false);
-            Destroy(endCutscene);
+            dialogueScript.StartDialogue();
+            hasTriggered = true;
         }
     }
 }

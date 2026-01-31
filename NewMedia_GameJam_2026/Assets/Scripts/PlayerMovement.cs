@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     //bool onKeyPlatform = false;
     [SerializeField] GameStateController gameStateController;
     [SerializeField] KeyMode keyModeScript;
+    [SerializeField] DialogueTrigger finalDialogueTrigger;
 
     public KeyCode moveMode = KeyCode.F;
 
@@ -62,8 +63,38 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("isIdleNoKey", true);
                 anim.SetBool("isWalkingNoKey", false);
             }
-            //anim.SetBool("isWalking", false);
         }
+
+        if ((anim.GetBool("isWalkingNoKey") == true | anim.GetBool("isIdleNoKey") == true))
+        {
+            if (Input.GetKeyDown(moveMode) && gameStateController.isFKeyPressable)
+            {
+                Debug.Log("Key is Picked Up");
+                anim.SetBool("isIdleNoKey", false);
+                anim.SetBool("isPickingUpKey", true);
+                anim.SetBool("isWalkingNoKey", false);
+                keyModeScript.keyPlatform.SetActive(false);
+                gameStateController.isKeyActive = false;
+                gameStateController.isFKeyPressable = false;
+                gameStateController.isEKeyPressable = true;
+            }
+        }
+
+        if (!isFacingRight && horizontalInput > 0)
+        {
+            Flip();
+        }
+        else if (isFacingRight && horizontalInput < 0)
+        {
+            Flip();
+        }
+
+        //if (finalDialogueTrigger.finalCutsceneActive == true)
+        //{
+        //    anim.SetBool("isIdle", true);
+        //    anim.SetBool("isWalkingNoKey", false);
+        //    anim.SetBool("isWalking", false);
+        //}
 
         //if (horizontalInput != 0)
         //{
@@ -127,15 +158,6 @@ public class PlayerMovement : MonoBehaviour
         //    anim.SetBool("isWalkingNoKey", false);
         //}
 
-        if (!isFacingRight && horizontalInput > 0)
-        {
-            Flip();
-        }
-        else if (isFacingRight && horizontalInput < 0)
-        {
-            Flip();
-        }
-
         //// Get the current Y position
         //float currentYPosition = transform.position.y;
 
@@ -170,21 +192,6 @@ public class PlayerMovement : MonoBehaviour
         //        gameStateController.isKeyActive = false;
         //    }
         //}
-
-        if ((anim.GetBool("isWalkingNoKey") == true | anim.GetBool("isIdleNoKey") == true))
-        {
-            if (Input.GetKeyDown(moveMode) && gameStateController.isFKeyPressable)
-            {
-                Debug.Log("Key is Picked Up");
-                anim.SetBool("isIdleNoKey", false);
-                anim.SetBool("isPickingUpKey", true);
-                anim.SetBool("isWalkingNoKey", false);
-                keyModeScript.keyPlatform.SetActive(false);
-                gameStateController.isKeyActive = false;
-                gameStateController.isFKeyPressable = false;
-                gameStateController.isEKeyPressable = true;
-            }
-        }
     }
 
     private void FixedUpdate()
