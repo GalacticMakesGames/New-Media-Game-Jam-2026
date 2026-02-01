@@ -6,6 +6,12 @@ public class DialogueTrigger : MonoBehaviour
 {
     public FinalCutsceneDialogue dialogueScript;
     private bool hasTriggered = false;
+    [SerializeField] PlayerMovement playerMovementScript;
+
+    void Start()
+    {
+        playerMovementScript.anim = GetComponent<Animator>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,6 +19,9 @@ public class DialogueTrigger : MonoBehaviour
         {
             dialogueScript.StartDialogue();
             hasTriggered = true;
+            playerMovementScript.anim.SetBool("isWalking", false);
+            playerMovementScript.anim.SetBool("isWalkingNoKey", false);
+            playerMovementScript.anim.SetBool("isIdle", true);
         }
     }
 }

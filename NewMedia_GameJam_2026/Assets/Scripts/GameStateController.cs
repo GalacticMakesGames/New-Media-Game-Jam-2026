@@ -10,6 +10,9 @@ public class GameStateController : MonoBehaviour
     [SerializeField] KeyMode keyModeScript;
     [SerializeField] private AudioClip keyPlacement;
     [SerializeField] private AudioClip keyPlacing;
+    public GameObject key;
+    public GameObject PFriction;
+    
     PlayerMovement moveSpeed;
     Rigidbody2D rb;
     private Animator anim;
@@ -33,6 +36,10 @@ public class GameStateController : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+
+        Collider2D myCollider2D = GetComponent<Collider2D>();
+        myCollider2D.sharedMaterial.friction = 0.2f; 
+        myCollider2D.sharedMaterial = myCollider2D.sharedMaterial;
     }
 
     // Update is called once per frame
@@ -53,7 +60,7 @@ public class GameStateController : MonoBehaviour
         {
             if (playerMovementScript.isMoving)
             {
-                rb.velocity = new Vector2(0, rb.velocity.y);
+                rb.velocity = new Vector2(0f, rb.velocity.y);
                 anim.SetBool("isWalking", false);
             }
             isKeyActive = true;
@@ -92,8 +99,15 @@ public class GameStateController : MonoBehaviour
             // Freeze movement
             if (playerMovementScript != null)
             {
-                rb.isKinematic = true;
-                playerMovementScript.enabled = false; // Disables the entire movement script
+                playerMovementScript.enabled = false;
+                //rb.isKinematic = true;             
+                // Disables the entire movement script
+
+                //targetCollider.enabled = false;
+                key.GetComponent<BoxCollider2D>().enabled = false;
+                Collider2D myCollider2D = GetComponent<Collider2D>();
+                myCollider2D.sharedMaterial.friction = 0.4f;
+                myCollider2D.sharedMaterial = myCollider2D.sharedMaterial;
             }
 
             // Enable mouse cursor
@@ -114,6 +128,8 @@ public class GameStateController : MonoBehaviour
             {
                 playerMovementScript.enabled = true;
                 rb.isKinematic = false;
+                //targetCollider.enabled = true;
+                key.GetComponent<BoxCollider2D>().enabled = true;
             }
 
             // Hide and lock the mouse cursor for resumed gameplay
@@ -124,7 +140,11 @@ public class GameStateController : MonoBehaviour
 
             //play sound when placing the key
             AudioSource.PlayClipAtPoint(keyPlacement, transform.position);
-}
+
+            Collider2D myCollider2D = GetComponent<Collider2D>();
+            myCollider2D.sharedMaterial.friction = 0.0f;
+            myCollider2D.sharedMaterial = myCollider2D.sharedMaterial;
+        }
 
         //else if (isPaused && Input.GetKeyDown(KeyCode.R))
         //{

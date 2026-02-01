@@ -7,6 +7,8 @@ public class GameOverScript : MonoBehaviour
 {
     public GameObject gameOverUI;
 
+
+
     // Update is called once per frame
     void Update()
     {
@@ -20,6 +22,13 @@ public class GameOverScript : MonoBehaviour
     public void GameOver()
     {
         gameOverUI.SetActive(true);
+
+        AudioSource NormalSound = GameObject.Find("NormalSound").GetComponent<AudioSource>();
+        AudioSource GameOverSound = GameObject.Find("GameOverSound").GetComponent<AudioSource>();
+
+        GameOverSound.Play();
+        NormalSound.mute = true;
+
     }
 
     public void Restart()

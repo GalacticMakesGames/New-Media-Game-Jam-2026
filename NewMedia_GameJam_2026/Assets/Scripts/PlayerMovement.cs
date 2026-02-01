@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
 
-    private Animator anim;
+    public Animator anim;
 
     //bool onKeyPlatform = false;
     [SerializeField] GameStateController gameStateController;
