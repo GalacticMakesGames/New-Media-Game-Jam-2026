@@ -18836,19 +18836,17 @@ MonoBehaviour:
   gameStateController: {fileID: 1682816467}
   textComponent: {fileID: 753070826}
   lines:
-  - '*sigh* Another day of sitting around here with nothing to do but watch this
-    store grow more and more empty.'
-  - It's funny how I was one of the first things to make it into this store, yet
-    I'm still here...
-  - Actually... thats pretty sad.
-  - I've always wondered what it would be like outside of my own little shelf, out
-    there, in the real world.
+  - '*sigh* Another day of sitting around here with nothing to do but watch the store
+    grow more and more empty.'
+  - It's sad to see how the world changes so much so quickly, yet here I am, still
+    the same since I was first dropped off here 45 years ago...
+  - I've always wondered what it would be like outside of my own little nook, out
+    there in the real world.
   - But I dont think that dream could ever become a reality...
-  - Like look at me! I'm the size of a human finger! It'll take forever to get out
-    of here!
-  - Wait... maybe I can use this key I found around the owner's desk the other day
-    to get out of here...
-  - At least it's worth a try!
+  - Like look at me! I'm the size of a person's finger!
+  - Hmm... I wonder if this key I found around the owner's desk the other day can
+    help me get out of here...
+  - It's worth a try at least!
   textSpeed: 0.05
 --- !u!114 &1593419592
 MonoBehaviour:
@@ -21364,9 +21362,9 @@ MonoBehaviour:
   textComponent: {fileID: 259768377}
   lines:
   - Woah, I made it!
-  - I never thought I'd be able to get all the way here with just a key!
-  - Oh and I can see the window from here!
-  - Looks like I gotta keep going... well as soon as I figure out how to get down...
+  - I never thought I'd be able to get all the way here with just a little key!
+  - Looks like the window is on the other side of the room...
+  - Time to keep going! Well... as soon as I figure out how to get down from here...
   textSpeed: 0.05
 --- !u!1 &1764708959
 GameObject:
