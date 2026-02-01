@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameOverScript : MonoBehaviour
+{
+    public GameObject gameOverUI;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (gameOverUI.activeInHierarchy)
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
+
+    public void GameOver()
+    {
+        gameOverUI.SetActive(true);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Restart");
+    }
+
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartExitMenu");
+        Debug.Log("MainMenu");
+    }
+
+    public void ExitGame()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+
+        #endif
+            Application.Quit();
+            Debug.Log("ExitGame");
+    }
+}

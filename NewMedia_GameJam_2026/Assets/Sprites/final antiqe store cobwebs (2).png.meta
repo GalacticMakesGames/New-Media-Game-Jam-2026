@@ -1,0 +1,1227 @@
+fileFormatVersion: 2
+guid: c1f47ff52e6bd864da4a8ec829cb20bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4471
+        width: 383
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a1ebccbd1393b4aad49812c3d8fa60
+      internalID: 291392773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_1
+      rect:
+        serializedVersion: 2
+        x: 3068
+        y: 4790
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451867161a7ae1e45a82f73ec4a48fe2
+      internalID: -1259800072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_2
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 4669
+        width: 8
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01be92af701c3b44b94aa7a8220e11a7
+      internalID: -1610709230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4593
+        width: 18
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa98edb04266c64b881ca50d85e93f2
+      internalID: 169993203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_4
+      rect:
+        serializedVersion: 2
+        x: 3073
+        y: 4538
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b999b45effd4f0499a5e7bb27424c78
+      internalID: 2032033748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 4101
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42c5421c2effc5478ab120a4b935aee
+      internalID: -1032632032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4098
+        width: 108
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e17059730059014eaf5383e0cb55174
+      internalID: -1246479921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3761
+        width: 119
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119b028f84140dc4e831aa202d69cabb
+      internalID: 1506023361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_8
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 3784
+        width: 204
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbfa68bbb052cd4c826c92706f2e069
+      internalID: -1270562018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 3754
+        width: 109
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c5362c497900e4fbe57b2756a57f59
+      internalID: 1904544278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_10
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 3815
+        width: 11
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de25a1fcdb3d5014087b6762eb1aa305
+      internalID: 716355946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_11
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 3811
+        width: 16
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd400cb89600a0946977c3de256a8a8a
+      internalID: 1489202330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_12
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 3670
+        width: 447
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4246945c423b7494b94f3d1accb81b3e
+      internalID: -262788381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_13
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 3726
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90085eca6c867a74081f852c6dc55784
+      internalID: 1148365821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 3222
+        width: 490
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5873409c079fda40a01dd3f9b6f07cb
+      internalID: -1161656476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_15
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3693
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2aa20edb8b49145a754bafb5357338
+      internalID: 1993979526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_16
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 2647
+        width: 244
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efc88448e860d24a8a7f0248490fa31
+      internalID: 1204889670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_17
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 2603
+        width: 91
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3304c1f59e82ea4aae74165a5dc1949
+      internalID: -83161149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_18
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 2610
+        width: 88
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd19a7824f60755408a6ff09375d1756
+      internalID: 645100624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_19
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 2600
+        width: 260
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ed8a96ee0f01d4ca8008fdb08426ac
+      internalID: 835546517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_20
+      rect:
+        serializedVersion: 2
+        x: 3316
+        y: 2303
+        width: 161
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6b69368154d1d40904870019ce0e68
+      internalID: -2126378443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_21
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 2409
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c16d243b7b784c45b2680f17665f5dc
+      internalID: 2080830434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_22
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 2372
+        width: 85
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97d010651db7f6479bc4e772dc7465c
+      internalID: 1126467287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_23
+      rect:
+        serializedVersion: 2
+        x: 3766
+        y: 2404
+        width: 85
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff998ff8e7d2684f96239d167e402db
+      internalID: 1628785977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_24
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 2240
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0721f70650d221943849ac3c3fe78659
+      internalID: 47623545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_25
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 2141
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24862808d7ad1064ea387365c8ab7d0b
+      internalID: -1324569635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_26
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 2197
+        width: 44
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 062300945c3ef43469c64b03212f7135
+      internalID: -1422944487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_27
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 2202
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7658225f06bf14d8165b72ebd83eea
+      internalID: 235429404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_28
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1378
+        width: 259
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f7e4ee7d483b48a087606ef4814e5
+      internalID: -1443087588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_29
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1371
+        width: 169
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a8bcf4e455df5468dcf8a1e9e25f47
+      internalID: -1541499386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_30
+      rect:
+        serializedVersion: 2
+        x: 2382
+        y: 959
+        width: 582
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b35d9a9f0ef184ea145c8536b740bf
+      internalID: 1978190472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_31
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 819
+        width: 258
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d12f987d5b61049ba4cb30f48034ea
+      internalID: -1227717826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_32
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1257
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d762387c0ff1944a926561aad7df4c9
+      internalID: -1973007587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_33
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1171
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bca6f53d193154abe73cfbd8586158
+      internalID: -1699962467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_34
+      rect:
+        serializedVersion: 2
+        x: 2836
+        y: 859
+        width: 117
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafa9dca47d479b41a1c86acb0557bbf
+      internalID: 2064239352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_35
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 419
+        width: 420
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9849f29ec0162a4dbf2c0ebaf2d8a46
+      internalID: -764164629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_36
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 740
+        width: 208
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097ce569e204ef44492590535c7d3a25
+      internalID: -252549745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_37
+      rect:
+        serializedVersion: 2
+        x: 3544
+        y: 728
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd6503f4ad262343b2a7c2dc338d0a4
+      internalID: -129186953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_38
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 730
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3620752e28fc0a44183741fb705cae10
+      internalID: 612812359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_39
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 719
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075090c7ad2313140bb68e11952ea217
+      internalID: -685168909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_40
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 547
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d4bbd98e6a0944c9a70be8e7d100b3
+      internalID: 284008573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_41
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 484
+        width: 157
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc87d6bf46a16745a5d4c60a4d6a741
+      internalID: 969819578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_42
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 358
+        width: 297
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2347b71ba4adac145a95ec9f7882207e
+      internalID: 336970022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_43
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 491
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de9205950e5e284596b2f73781c4654
+      internalID: 1235248160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_44
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 498
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fee3ed15644f2a49a715132f03fc6c2
+      internalID: 344434637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_45
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 362
+        width: 498
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2ed5da9918df3409e7abe1768e5c47
+      internalID: -1416266554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_46
+      rect:
+        serializedVersion: 2
+        x: 4095
+        y: 407
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b943ad9abfe6f2046a4374b39c0dd2de
+      internalID: 526711683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_47
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 302
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19c7eb976bf83345910f73285d6cc5d
+      internalID: -532865873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_48
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 300
+        width: 183
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d8f69f939cc35469c15834a8a2e293
+      internalID: 1049697626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store cobwebs (2)_49
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 512
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b11db8f2b033549bd9f0579b43edb4
+      internalID: -1731853241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      final antiqe store cobwebs (2)_0: 291392773
+      final antiqe store cobwebs (2)_1: -1259800072
+      final antiqe store cobwebs (2)_10: 716355946
+      final antiqe store cobwebs (2)_11: 1489202330
+      final antiqe store cobwebs (2)_12: -262788381
+      final antiqe store cobwebs (2)_13: 1148365821
+      final antiqe store cobwebs (2)_14: -1161656476
+      final antiqe store cobwebs (2)_15: 1993979526
+      final antiqe store cobwebs (2)_16: 1204889670
+      final antiqe store cobwebs (2)_17: -83161149
+      final antiqe store cobwebs (2)_18: 645100624
+      final antiqe store cobwebs (2)_19: 835546517
+      final antiqe store cobwebs (2)_2: -1610709230
+      final antiqe store cobwebs (2)_20: -2126378443
+      final antiqe store cobwebs (2)_21: 2080830434
+      final antiqe store cobwebs (2)_22: 1126467287
+      final antiqe store cobwebs (2)_23: 1628785977
+      final antiqe store cobwebs (2)_24: 47623545
+      final antiqe store cobwebs (2)_25: -1324569635
+      final antiqe store cobwebs (2)_26: -1422944487
+      final antiqe store cobwebs (2)_27: 235429404
+      final antiqe store cobwebs (2)_28: -1443087588
+      final antiqe store cobwebs (2)_29: -1541499386
+      final antiqe store cobwebs (2)_3: 169993203
+      final antiqe store cobwebs (2)_30: 1978190472
+      final antiqe store cobwebs (2)_31: -1227717826
+      final antiqe store cobwebs (2)_32: -1973007587
+      final antiqe store cobwebs (2)_33: -1699962467
+      final antiqe store cobwebs (2)_34: 2064239352
+      final antiqe store cobwebs (2)_35: -764164629
+      final antiqe store cobwebs (2)_36: -252549745
+      final antiqe store cobwebs (2)_37: -129186953
+      final antiqe store cobwebs (2)_38: 612812359
+      final antiqe store cobwebs (2)_39: -685168909
+      final antiqe store cobwebs (2)_4: 2032033748
+      final antiqe store cobwebs (2)_40: 284008573
+      final antiqe store cobwebs (2)_41: 969819578
+      final antiqe store cobwebs (2)_42: 336970022
+      final antiqe store cobwebs (2)_43: 1235248160
+      final antiqe store cobwebs (2)_44: 344434637
+      final antiqe store cobwebs (2)_45: -1416266554
+      final antiqe store cobwebs (2)_46: 526711683
+      final antiqe store cobwebs (2)_47: -532865873
+      final antiqe store cobwebs (2)_48: 1049697626
+      final antiqe store cobwebs (2)_49: -1731853241
+      final antiqe store cobwebs (2)_5: -1032632032
+      final antiqe store cobwebs (2)_6: -1246479921
+      final antiqe store cobwebs (2)_7: 1506023361
+      final antiqe store cobwebs (2)_8: -1270562018
+      final antiqe store cobwebs (2)_9: 1904544278
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

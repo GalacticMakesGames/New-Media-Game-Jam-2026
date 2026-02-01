@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2d64c05649547984dbdf4e0b063ed6c7
+guid: d2998154667133947966a5a5c509b703
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: final antiqe store 2_0
+      name: final antiqe store 1_0
       rect:
         serializedVersion: 2
-        x: 1538
-        y: 56
-        width: 1303
-        height: 1259
+        x: 0
+        y: 233
+        width: 4027
+        height: 2352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d8487fb855618f4e9be4e2634e3ee9f
-      internalID: -1834936230
+      spriteID: e4b1af9d3917b6f49a1d1927bf65ba87
+      internalID: -1827439213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_1
+      name: final antiqe store 1_1
       rect:
         serializedVersion: 2
-        x: 3765
-        y: 234
-        width: 596
-        height: 1232
+        x: 4014
+        y: 2437
+        width: 1710
+        height: 1927
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b9d00bca29aa2d46ba01c96cba413d8
-      internalID: 1756640694
+      spriteID: d0727ddf05e7ac244a1bb9089fb669f8
+      internalID: -2023891596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_2
+      name: final antiqe store 1_2
       rect:
         serializedVersion: 2
-        x: 6327
-        y: 207
-        width: 3938
-        height: 2550
+        x: 6203
+        y: 2462
+        width: 527
+        height: 649
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c2c87a1d331094aa7f32f048569c2b
-      internalID: 770140290
+      spriteID: 4d31f09052f2b2f46a3bc97e7f7c8542
+      internalID: 1561215160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_3
+      name: final antiqe store 1_3
       rect:
         serializedVersion: 2
-        x: 10706
-        y: 135
-        width: 1132
-        height: 1199
+        x: 6760
+        y: 2450
+        width: 432
+        height: 668
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c300af931c8fa9488c4674ba0cc59ad
-      internalID: 1211210748
+      spriteID: ffae8a2f81f87594f96f54ef9103bbba
+      internalID: 256520873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_4
+      name: final antiqe store 1_4
       rect:
         serializedVersion: 2
-        x: 11976
-        y: 496
-        width: 19
-        height: 18
+        x: 7265
+        y: 2444
+        width: 563
+        height: 530
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eaf80c432961c342b121e3eb01b907a
-      internalID: 2011368457
+      spriteID: b95a8dfc1a221b74cb711972d1569a4b
+      internalID: -2139720817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_5
+      name: final antiqe store 1_5
       rect:
         serializedVersion: 2
-        x: 12062
-        y: 313
-        width: 877
-        height: 575
+        x: 7861
+        y: 2449
+        width: 616
+        height: 577
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fe59f091d4eb22418fb7b0be3a1e0c0
-      internalID: -1046249352
+      spriteID: 93566452ae6cd0243bc3d604f8c7eb7c
+      internalID: -1908075201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_6
+      name: final antiqe store 1_6
       rect:
         serializedVersion: 2
-        x: 11918
-        y: 437
-        width: 35
-        height: 32
+        x: 8457
+        y: 2436
+        width: 799
+        height: 1245
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3954d53903b0b3f4b95febac6317b700
-      internalID: -537802
+      spriteID: d473dc5cb764b394295f86eac74d5e8c
+      internalID: -1549895580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: final antiqe store 2_7
+      name: final antiqe store 1_7
       rect:
         serializedVersion: 2
-        x: 12006
-        y: 155
-        width: 32
-        height: 17
+        x: 9525
+        y: 2253
+        width: 1815
+        height: 2229
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +258,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a09dbb0143c140f49bb5f846e4521704
-      internalID: -331877611
+      spriteID: 441e3b00ef62e484090cf37c997c04ea
+      internalID: 2126559219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store 1_8
+      rect:
+        serializedVersion: 2
+        x: 9650
+        y: 359
+        width: 3771
+        height: 4181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12253febe9679841b9cd171f79a2b45
+      internalID: -1962181398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store 1_9
+      rect:
+        serializedVersion: 2
+        x: 4106
+        y: 469
+        width: 1552
+        height: 1783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac963f6dd0d1ee94bb724e25fb8ddf67
+      internalID: -1686901657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: final antiqe store 1_10
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 417
+        width: 3433
+        height: 1907
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9216edf56978b7c449a91a575e6280d7
+      internalID: 1008976626
       vertices: []
       indices: 
       edges: []
@@ -275,14 +338,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      final antiqe store 2_0: -1834936230
-      final antiqe store 2_1: 1756640694
-      final antiqe store 2_2: 770140290
-      final antiqe store 2_3: 1211210748
-      final antiqe store 2_4: 2011368457
-      final antiqe store 2_5: -1046249352
-      final antiqe store 2_6: -537802
-      final antiqe store 2_7: -331877611
+      final antiqe store 1_0: -1827439213
+      final antiqe store 1_1: -2023891596
+      final antiqe store 1_10: 1008976626
+      final antiqe store 1_2: 1561215160
+      final antiqe store 1_3: 256520873
+      final antiqe store 1_4: -2139720817
+      final antiqe store 1_5: -1908075201
+      final antiqe store 1_6: -1549895580
+      final antiqe store 1_7: 2126559219
+      final antiqe store 1_8: -1962181398
+      final antiqe store 1_9: -1686901657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
