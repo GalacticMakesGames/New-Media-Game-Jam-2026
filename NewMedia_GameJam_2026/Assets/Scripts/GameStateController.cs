@@ -1,6 +1,7 @@
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameStateController : MonoBehaviour
@@ -26,6 +27,9 @@ public class GameStateController : MonoBehaviour
     //public KeyCode moveMode = KeyCode.F;
 
     public bool isKeyActive = false;
+
+    // COOLDOWN TIMER //
+    [SerializeField] private KeyCooldown keyCooldown;
 
     // Start is called before the first frame update
     void Start()
@@ -55,6 +59,8 @@ public class GameStateController : MonoBehaviour
         //    isKeyActive = true;
         //    TogglePauseState();
         //}
+
+        if (keyCooldown.isCoolingDown) return;
 
         if (isEKeyPressable && Input.GetKeyDown(keyMode))
         {
@@ -144,6 +150,8 @@ public class GameStateController : MonoBehaviour
             Collider2D myCollider2D = GetComponent<Collider2D>();
             myCollider2D.sharedMaterial.friction = 0.0f;
             myCollider2D.sharedMaterial = myCollider2D.sharedMaterial;
+
+            keyCooldown.StartCooldown();
         }
 
         //else if (isPaused && Input.GetKeyDown(KeyCode.R))

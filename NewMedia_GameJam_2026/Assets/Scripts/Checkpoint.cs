@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    public BoxCollider2D trigger;
+    private bool activated = false;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !activated)
         {
-            RespawnController.Instance.respawnPoint = transform;
-            trigger.enabled = false;
+            RespawnController.Instance.SetNewRespawnPoint(transform.position);
+            activated = true; // Mark as activated to avoid re-triggering
         }
     }
 }
