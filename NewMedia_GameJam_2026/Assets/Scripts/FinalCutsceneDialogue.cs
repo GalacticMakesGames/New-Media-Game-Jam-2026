@@ -9,6 +9,8 @@ public class FinalCutsceneDialogue : MonoBehaviour
     [SerializeField] GameStateController gameStateController;
     [SerializeField] GameOverScript gameOverScript;
 
+    public GameObject endingDialogueBox;
+
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -18,7 +20,8 @@ public class FinalCutsceneDialogue : MonoBehaviour
     void Start()
     {
         textComponent.text = string.Empty;
-        gameObject.SetActive(false);
+        textComponent.ForceMeshUpdate();
+        //endingDialogueBox.SetActive(false);
     }
 
     void Update()
@@ -37,19 +40,18 @@ public class FinalCutsceneDialogue : MonoBehaviour
         }
     }
 
-    // UPDATED: Now accepts a Boolean and a GameObject reference
     public void StartDialogue()
     {
-        gameObject.SetActive(true);
+        endingDialogueBox.SetActive(true);
         playerMovementScript.enabled = false;
         gameStateController.isEKeyPressable = false;
 
         index = 0;
         textComponent.text = string.Empty;
-        StartCoroutine(TypeLine());
+        StartCoroutine(TypeLineTwo());
     }
 
-    IEnumerator TypeLine()
+    IEnumerator TypeLineTwo()
     {
         foreach (char c in lines[index].ToCharArray())
         {
@@ -64,7 +66,7 @@ public class FinalCutsceneDialogue : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
+            StartCoroutine(TypeLineTwo());
         }
         else
         {

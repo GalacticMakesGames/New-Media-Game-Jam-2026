@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public FinalCutsceneDialogue dialogueScript;
-    private bool hasTriggered = false;
+    [SerializeField] bool hasTriggered = false;
     [SerializeField] PlayerMovement playerMovementScript;
 
     void Start()
@@ -17,6 +17,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !hasTriggered)
         {
+            //dialogueScript.endingDialogueBox.SetActive(true);
             dialogueScript.StartDialogue();
             hasTriggered = true;
             playerMovementScript.anim.SetBool("isWalking", false);

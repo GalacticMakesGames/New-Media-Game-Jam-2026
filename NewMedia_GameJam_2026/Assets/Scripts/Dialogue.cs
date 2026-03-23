@@ -10,6 +10,8 @@ public class Dialogue : MonoBehaviour
     [SerializeField] PlayerMovement playerMovementScript;
     [SerializeField] GameStateController gameStateController;
 
+    public GameObject movementTooltipTrigger;
+
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
@@ -19,6 +21,8 @@ public class Dialogue : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        movementTooltipTrigger.SetActive(false);
+        
         textComponent.text = string.Empty;
         StartDialogue();
     }
@@ -72,6 +76,8 @@ public class Dialogue : MonoBehaviour
             gameObject.SetActive(false);
             playerMovementScript.enabled = true; // Re-enables the movement script
             gameStateController.isEKeyPressable = true;
+
+            movementTooltipTrigger.SetActive(true);
         }
     }
 }
